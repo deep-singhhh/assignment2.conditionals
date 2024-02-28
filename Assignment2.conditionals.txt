@@ -1,0 +1,44 @@
+Q1.
+answer=Output is: 0
+
+Q2.
+answer= error
+
+Q3.
+answer= 2
+
+Q4.
+answer=
+#include<iostream>
+using namespace std;
+int main(){
+    float r , h , v;
+    cout<<"Enter radius of cyclinder:";
+    cin>>r;
+    cout<<"Enter height of cylinder:";
+    cin>>h;
+    v = (22.0/7)*r*r*h;
+    cout<<"Volume of cylinder:"<<v;
+    return 0;
+    
+
+}
+
+
+Q5.
+answer=
+#include<iostream>
+using namespace std;
+int main(){
+    char a,b;
+    cout<<"Enter 1st character:";
+    cin>>a;
+    cout<<"Enter 2nd character:";
+    cin>>b;
+    int asciidiff= int(a) - int(b);
+    cout<<asciidiff;
+    return 0;
+}
+
+Q6.
+answer=50
